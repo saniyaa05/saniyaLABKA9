@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <title>Басты бет</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <nav>
+        <a href="/">Басты бет</a>
+        <a href="/about/">Мен туралы</a>
+        <a href="/info/">Техникалық ақпарат</a>
+    </nav>
+
+    <h1>Жобама қош келдіңіз!</h1>
+    <p>Бұл зертханалық жұмыс.</p>
+    
+    <h3>Менің жобаларым:</h3>
+    <ul>
+        <li><a href="/projects/1/">№1 Жобаны көру</a></li>
+        <li><a href="/projects/2/">№2 Жобаны көру</a></li>
+        <li><a href="/projects/3/">№3 Жобаны көру</a></li>
+    </ul>
+</body>
+</html>

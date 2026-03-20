@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <title>Жоба мәліметі</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <a href="/">← Басты бетке</a>
+    <hr>
+    <div class="card">
+        <h1>Жоба парақшасы</h1>
+        <p>Сіз қазір <span>№{{ project_id }}</span> жобаны қарап тұрсыз.</p>
+    </div>
+    <p>Бұл — динамикалық маршруттың жұмысы.</p>
+</body>
+</html>
